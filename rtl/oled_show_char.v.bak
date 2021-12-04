@@ -1,0 +1,152 @@
+module oled_show_char(
+	input clk,
+	input rst_n,
+	input [7:0] ascll,
+	input [4:0] font_size,
+	input [6:0] x,
+	input [5:0] y;
+	input en_ram_wr,
+	output reg wren,
+	output reg [9:0]wraddress,
+	output reg [7:0]data
+);
+
+parameter WaitEn=0,ReadData=1,SaveData=2,ChangeData=3,WriteData=4,Done=5;
+reg [2:0] state,next_state;
+reg [7:0] zm;
+reg [7:0] ram_zm[127:0][7:0];
+reg [3:0] zm_w_cnt;
+reg [5:0] zm_cnt;
+reg [11:0] rom_address;
+wire [7:0] zm12_data,zm16_data,zm24_data;
+
+reg [6:0] rst_ram_zm_cntx;
+reg [2:0] rst_ram_zm_cnty;
+reg [10:0] wraddress_cnt;
+
+assign wraddress = wraddress_cnt<11'd1024 ? wraddress : 10'd0;
+
+always @(*) begin
+	if(!rst_n)
+		next_state = WaitEn;
+	else begin
+		case(state)
+			WaitEn: next_state = en_ram_wr ? ReadData : WaitEn;
+			
+			ReadData: next_state = SaveData;
+			
+			SaveData: next_state = ChangeData;
+			
+			ChangeData:begin
+				case(font_size)
+					5'd12: next_state = (zm_cnt == 6'd12 && zm_w_cnt == 4'd8) ? WriteData : (zm_w_cnt == 4'd8) ? SaveData : ChangeData;
+					5'd16: next_state = (zm_cnt == 6'd16 && zm_w_cnt == 4'd8) ? WriteData : (zm_w_cnt == 4'd8) ? SaveData : ChangeData;
+					5'd24: next_state = (zm_cnt == 6'd36 && zm_w_cnt == 4'd8) ? WriteData : (zm_w_cnt == 4'd8) ? SaveData : ChangeData;
+				endcase
+			end
+			
+			WriteData: begin
+				next_state = (wraddress_cnt == 11'd1024) ? Done : WriteData;
+			end
+			
+			Done:next_state = Done;
+		endcase		
+	end
+end
+
+
+always @(posedge clk,negedge rst_n) begin
+	if(!rst_n) begin
+		rom_address <= 12'd0;
+		ram_zm[rst_ram_zm_cntx][rst_ram_zm_cnty] = 8'd0;
+		zm <= 8'd0;
+		wren <= 1'b0;
+	end
+	else begin
+		case(state)			
+			ReadData: begin
+				rom_address <= rom_address + 1'b1;
+			end
+			
+			SaveData: begin
+				case(font_size)
+					5'd12: zm <= zm12_data;
+					5'd16: zm <= zm16_data;
+					5'd24: zm <= zm24_data;
+				endcase
+			end
+			
+			ChangeData:begin
+				if(zm[7-zm_w_cnt])
+					//1左移多少位
+					ram_zm[x+zm_cnt][7-(y+zm_w_cnt)/8] |=  1<<(7-y%8);
+				else
+					ram_zm[x+zm_cnt][7-(y+zm_w_cnt)/8] &=  1<<(7-y%8);
+			end
+			
+			WriteData:begin
+				wren <= 1'b1;
+			end
+		endcase
+	end
+end
+
+always @(posedge clk,negedge rst_n) begin
+	if(!rst_n) begin
+		zm_cnt <= 6'd0;
+		zm_w_cnt <= 4'd0;
+		
+		rst_ram_zm_cnty <= rst_ram_zm_cnty + 1'b1;
+		if(rst_ram_zm_cnty == 3'd7)
+			rst_ram_zm_cntx <= rst_ram_zm_cntx + 1'b1;
+		else
+			rst_ram_zm_cntx <= rst_ram_zm_cntx;
+	end
+	else begin
+		case(state)
+			WaitEn:begin
+				rst_ram_zm_cntx <= 7'd0;
+				rst_ram_zm_cnty <= 3'd0;
+			end
+				
+			ReadData:begin
+				zm_cnt <= zm_cnt + 1'b1;
+				zm_w_cnt <= 4'd0;
+			end
+			
+			ChangeData:begin
+				zm_w_cnt <= zm_w_cnt + 1'b1;
+			end
+			
+			WriteData: begin
+				wraddress_cnt <= wraddress_cnt + 1'b1;
+				rst_ram_zm_cntx <= rst_ram_zm_cntx + 1'b1;
+				if(rst_ram_zm_cntx == 7'd127)
+					rst_ram_zm_cnty <= rst_ram_zm_cnty + 1'b1;
+				else
+					rst_ram_zm_cnty <= rst_ram_zm_cnty;
+			end
+		endcase
+	end
+end
+
+zm_12 zm_12_inst(
+	.clock(clk),
+	.address(rom_address),
+	.q(zm12_data)
+);
+
+zm_16 zm_16_inst(
+	.clock(clk),
+	.address(rom_address),
+	.q(zm16_data)
+);
+
+zm_24 zm_24_inst(
+	.clock(clk),
+	.address(rom_address),
+	.q(zm24_data)
+);
+
+
+endmodule

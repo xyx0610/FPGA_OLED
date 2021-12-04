@@ -1,0 +1,36 @@
+module ram_read_tb();
+
+reg clk;
+reg rst_n;
+reg write_done;
+reg init_done;
+wire rden;
+wire rdaddress;
+wire ena_write;
+wire oled_dc;
+
+
+ram_read ram_read_inst(
+	.clk(clk),
+	.rst_n(rst_n),
+	.write_done(write_done),
+	.init_done(init_done),
+	.rden(rden),
+	.rdaddress(rdaddress),
+	.ena_write(ena_write),
+	.oled_dc(oled_dc)
+);
+
+initial begin
+	#0 	clk = 0;
+		rst_n = 0;
+		write_done = 1;
+		init_done = 1;
+	
+	#20 rst_n = 1;
+
+end
+
+always #5 clk = ~clk;
+
+endmodule

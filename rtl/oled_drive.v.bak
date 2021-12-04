@@ -1,0 +1,51 @@
+module oled_drive(
+	input clk,
+	input rst_n,
+	output oled_rst,
+	output oled_dc,
+	output oled_sclk,
+	output oled_mosi
+);
+
+wire clk_1m;
+wire ena_write;
+wire [7:0] data;
+wire init_done;
+
+reg    [4:0]   clk_cnt     ;        //分频计数器
+//得到1Mhz分频时钟
+always @ (posedge sys_clk or negedge rst_n) begin
+    if (!rst_n) begin
+        clk_cnt <= 5'd0;
+        clk_1m  <= 1'b0;
+    end 
+    else if (clk_cnt < 5'd24) 
+        clk_cnt <= clk_cnt + 1'b1;       
+    else begin
+        clk_cnt <= 5'd0;
+        clk_1m  <= ~ clk_1m;
+    end 
+end
+
+spi_writebyte spi_writebyte_inst(
+	.clk(clk_1m),
+	.rst_n(rst_n),
+	.ena_write(ena_write),
+	.data(data),
+	.sclk(oled_sclk),
+	.mosi(oled_mosi),
+	.write_done(write_done)
+);
+
+oled_init oled_init_inst(
+	.clk(clk_1m),
+	.rst_n(rst_n),
+	.write_done(write_done),
+	.oled_rst(oled_rst),
+	.oled_dc(oled_dc),
+	.data(data),
+	.ena_write(ena_write),
+	.init_done(init_done)
+);
+
+endmodule

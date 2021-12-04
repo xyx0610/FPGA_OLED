@@ -1,0 +1,53 @@
+
+State Machine - |oled_drive|oled_show_num:oled_show_num_inst|state
+Name state.Lg_JS3 state.Lg_JS2 state.Lg_JS1 state.Done state.WriteData state.ChangeData state.SaveData2 state.SaveData1 state.ReadData state.InitAddress state.GetNum state.WaitEn state.ClearRAM 
+state.ClearRAM 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state.WaitEn 0 0 0 0 0 0 0 0 0 0 0 1 1 
+state.GetNum 0 0 0 0 0 0 0 0 0 0 1 0 1 
+state.InitAddress 0 0 0 0 0 0 0 0 0 1 0 0 1 
+state.ReadData 0 0 0 0 0 0 0 0 1 0 0 0 1 
+state.SaveData1 0 0 0 0 0 0 0 1 0 0 0 0 1 
+state.SaveData2 0 0 0 0 0 0 1 0 0 0 0 0 1 
+state.ChangeData 0 0 0 0 0 1 0 0 0 0 0 0 1 
+state.WriteData 0 0 0 0 1 0 0 0 0 0 0 0 1 
+state.Done 0 0 0 1 0 0 0 0 0 0 0 0 1 
+state.Lg_JS1 0 0 1 0 0 0 0 0 0 0 0 0 1 
+state.Lg_JS2 0 1 0 0 0 0 0 0 0 0 0 0 1 
+state.Lg_JS3 1 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |oled_drive|ram_write:ram_write_inst|state
+Name state.Done state.WriteData state.WaitInit state.ClearRAM 
+state.ClearRAM 0 0 0 0 
+state.WaitInit 0 0 1 1 
+state.WriteData 0 1 0 1 
+state.Done 1 0 0 1 
+
+State Machine - |oled_drive|ram_read:ram_read_inst|state
+Name state.Done state.WaitWriteData state.WriteData state.ReadData state.WaitWriteCmd state.WriteCmd state.WaitInit 
+state.WaitInit 0 0 0 0 0 0 0 
+state.WriteCmd 0 0 0 0 0 1 1 
+state.WaitWriteCmd 0 0 0 0 1 0 1 
+state.ReadData 0 0 0 1 0 0 1 
+state.WriteData 0 0 1 0 0 0 1 
+state.WaitWriteData 0 1 0 0 0 0 1 
+state.Done 1 0 0 0 0 0 1 
+
+State Machine - |oled_drive|oled_init:oled_init_inst|state
+Name state.Done state.WaitClearData state.WaitClearCmd state.WaitOn state.WaitInit state.ClearData state.ClearCmd state.OledOn state.Init state.Rst 
+state.Rst 0 0 0 0 0 0 0 0 0 0 
+state.Init 0 0 0 0 0 0 0 0 1 1 
+state.OledOn 0 0 0 0 0 0 0 1 0 1 
+state.ClearCmd 0 0 0 0 0 0 1 0 0 1 
+state.ClearData 0 0 0 0 0 1 0 0 0 1 
+state.WaitInit 0 0 0 0 1 0 0 0 0 1 
+state.WaitOn 0 0 0 1 0 0 0 0 0 1 
+state.WaitClearCmd 0 0 1 0 0 0 0 0 0 1 
+state.WaitClearData 0 1 0 0 0 0 0 0 0 1 
+state.Done 1 0 0 0 0 0 0 0 0 1 
+
+State Machine - |oled_drive|spi_writebyte:spi_writebyte_inst|state
+Name state.Done state.S2 state.S1 state.S0 
+state.S0 0 0 0 0 
+state.S1 0 0 1 1 
+state.S2 0 1 0 1 
+state.Done 1 0 0 1 

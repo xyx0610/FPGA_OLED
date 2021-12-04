@@ -1,0 +1,47 @@
+module change_xy(
+	input clk,
+	input rst_n,
+	input add_dec_x,
+	input add_dec_y,
+	output [6:0] x,
+	output [5:0] y
+);
+
+reg dirx,diry;
+reg [6:0] xr;
+reg [5:0] yr;
+reg ac_x_r1,ac_x_r2,ac_y_r1,ac_y_r2;
+
+always @(posedge clk_1m) begin
+	if(!rst_n) begin
+		ac_x_r1 <= 1'b0;
+		ac_x_r2 <= 1'b0;
+		ac_y_r1 <= 1'b0;
+		ac_y_r2 <= 1'b0;
+		xr <= 7'd0;
+		yr <= 6'd0;
+		dirx <= 1'b0;
+		diry <= 1'b0;
+	end
+	else begin
+		ac_x_r1 <= add_dec_x;
+		ac_x_r2 <= ac_x_r1;
+		ac_y_r1 <= add_dec_y;
+		ac_y_r2 <= ac_y_r1;
+		
+		dirx = (xr>7'd100) ? 1'b1 : (xr<5'd20) ? 1'b0 : dirx;
+		diry = (yr<6'd40) ? 1'b1 : (yr<3'd5) ? 1'b0 : diry;
+			
+		if(ac_x_r1 & ~ac_x_r2)
+			xr = dirx ? xr+3'd5 : xr-3'd5;
+		else
+			xr = xr;
+		
+		if(ac_y_r1 & ~ac_y_r2)
+			yr = diry ? yr+3'd5 : yr-3'd5;
+		else
+			yr = yr;
+	end
+end
+
+endmodule

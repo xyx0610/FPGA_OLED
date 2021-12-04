@@ -1,0 +1,4 @@
+Warning (10268): Verilog HDL information at oled_show_num.v(103): always construct contains both blocking and non-blocking assignments File: E:/FPGA_Study/MyStudy2/OLED/rtl/oled_show_num.v Line: 103
+Warning (10268): Verilog HDL information at spi_writebyte.v(17): always construct contains both blocking and non-blocking assignments File: E:/FPGA_Study/MyStudy2/OLED/rtl/spi_writebyte.v Line: 17
+Warning (10268): Verilog HDL information at oled_show_char.v(90): always construct contains both blocking and non-blocking assignments File: E:/FPGA_Study/MyStudy2/OLED/rtl/oled_show_char.v Line: 90
+Warning (10268): Verilog HDL information at oled_show_char.v(257): always construct contains both blocking and non-blocking assignments File: E:/FPGA_Study/MyStudy2/OLED/rtl/oled_show_char.v Line: 257

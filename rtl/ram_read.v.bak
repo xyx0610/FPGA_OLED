@@ -1,0 +1,42 @@
+module ram_read(
+	input clk,
+	input rst_n,
+	input write_done,
+	input wait_init,
+	output reg rden,
+	output reg[9:0] rdaddress
+);
+
+parameter S0,S1
+reg[1:0] state,next_state;
+	
+always @(posedge clk,negedge rst_n) begin
+	if(!rst_n) begin
+		next_state <= S0;
+	end
+	else begin
+		case(state)
+			S0: next_state <= wait_init ? S1 : S0;
+			S1: begin
+				rden <= 1'b1;
+				rdaddress <= rdaddress + 1'b1;
+				next_state <= S2;
+			end
+			S2: begin
+				rden <= 1'b0;
+				rdaddress <= rdaddress;
+				next_state <= S1;
+			end
+		endcase
+	end
+end	
+
+always @(posedge clk,negedge rst_n) begin
+	if(!rst_n)
+		state <= S0;
+	else
+		state <= next_state;
+end
+
+
+endmodule

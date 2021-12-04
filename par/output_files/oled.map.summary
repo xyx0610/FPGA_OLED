@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Dec  1 12:45:54 2021
+Quartus Prime Version : 21.1.0 Build 842 10/21/2021 SJ Lite Edition
+Revision Name : oled
+Top-level Entity Name : oled_drive
+Family : Cyclone 10 LP
+Total logic elements : 11,951
+    Total combinational functions : 7,081
+    Dedicated logic registers : 5,521
+Total registers : 5521
+Total pins : 13
+Total virtual pins : 0
+Total memory bits : 47,744
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

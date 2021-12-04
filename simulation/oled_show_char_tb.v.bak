@@ -1,0 +1,30 @@
+module oled_show_char_tb();
+
+reg clk;
+reg rst_n;
+reg [7:0]ascll;
+reg [4:0]font_size;
+reg [6:0]x;
+reg [5:0]y;
+reg en_ram_wr;
+
+wire wren;
+wire [9:0] wraddress;
+wire [7:0] data;
+
+initial begin
+	#0	clk = 0;
+		rst_n = 0;
+		ascll = 8'd33;
+		font_size = 5'd16;
+		x = 7'd0;
+		y = 6'd3;
+		en_ram_wr = 1'b1;
+		
+	#20 rst_n = 1;
+end
+
+always #5 clk = ~clk;
+
+
+endmodule

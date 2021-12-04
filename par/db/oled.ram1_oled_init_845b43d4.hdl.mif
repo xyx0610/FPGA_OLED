@@ -1,0 +1,14 @@
+-- begin_signature
+-- oled_init
+-- end_signature
+WIDTH=8;
+DEPTH=3;
+
+ADDRESS_RADIX=UNS;
+DATA_RADIX=BIN;
+
+CONTENT BEGIN
+	2 :	10101111;
+	1 :	00010100;
+	0 :	10001101;
+END;

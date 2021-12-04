@@ -1,0 +1,31 @@
+`timescale 1ns/10ps //仿真单位为1ns，精度为10ps
+
+module spi_writebyte_tb ( );
+
+	reg clk;
+	reg ena;
+	reg rst;
+	reg [7:0]data;
+	reg sclk;
+	reg mosi;
+	
+	spi_writebyte spi_writebyte_inst(
+		.clk(clk),
+		.ena(ena),
+		.rst(rst),
+		.data(data),
+		.sclk(sclk),
+		.mosi(mosi)
+	);
+	
+	initial begin
+		#0 	clk = 0;//clk初始为0
+			data = 8'b11010011;
+			ena = 0;
+			rst = 1;
+		#10	ena = 1;
+	end
+	
+	always #5 clk = ~clk;//每5个时钟单位 clk取反一次
+		
+endmodule

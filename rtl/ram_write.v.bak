@@ -1,0 +1,126 @@
+module ram_write(
+	input clk,
+	input rst_n,
+	input init_done
+	output wren,
+	output[9:0] wraddress,
+	output[7:0] data
+);
+
+parameter WaitInit,WriteData,Done;
+reg[2:0] state,next_state;
+reg [7:0] zm[111:0];
+reg [7:0] cnt_zm;
+
+initial begin
+	reg zm[0]=8'h00;reg zm[1]=8'h00;reg zm[2]=8'h01;reg zm[3]=8'h04;
+	reg zm[4]=8'h01;reg zm[5]=8'h8C;reg zm[6]=8'h01;reg zm[7]=8'h70;
+	reg zm[8]=8'h00;reg zm[9]=8'h74;reg zm[10]=8'h01;reg zm[11]=8'h8C;
+	reg zm[12]=8'h01;reg zm[13]=8'h04;reg zm[14]=8'h00;reg zm[15]=8'h00;//"x",0
+	
+	reg zm[16]=8'h01;reg zm[17]=8'h00;reg zm[18]=8'h01;reg zm[19]=8'h81;
+	reg zm[20]=8'h01;reg zm[21]=8'h61;reg zm[22]=8'h00;reg zm[23]=8'h1E;
+	reg zm[24]=8'h00;reg zm[25]=8'h18;reg zm[26]=8'h01;reg zm[27]=8'h60;
+	reg zm[28]=8'h01;reg zm[29]=8'h80;reg zm[30]=8'h01;reg zm[31]=8'h00;//"y",1
+	
+	reg zm[32]=8'h00;reg zm[33]=8'h00;reg zm[34]=8'h01;reg zm[35]=8'h04;
+	reg zm[36]=8'h01;reg zm[37]=8'h8C;reg zm[38]=8'h01;reg zm[39]=8'h70;
+	reg zm[40]=8'h00;reg zm[41]=8'h74;reg zm[42]=8'h01;reg zm[43]=8'h8C;
+	reg zm[44]=8'h01;reg zm[45]=8'h04;reg zm[46]=8'h00;reg zm[47]=8'h00;//"x",2
+	
+	reg zm[48]=8'h00;reg zm[49]=8'h00;reg zm[50]=8'h07;reg zm[51]=8'hF0;
+	reg zm[52]=8'h08;reg zm[53]=8'h08;reg zm[54]=8'h10;reg zm[55]=8'h04;
+	reg zm[56]=8'h10;reg zm[57]=8'h04;reg zm[58]=8'h08;reg zm[59]=8'h08;
+	reg zm[60]=8'h07;reg zm[61]=8'hF0;reg zm[62]=8'h00;reg zm[63]=8'h00;//"0",3
+	
+	reg zm[64]=8'h00;reg zm[65]=8'h00;reg zm[66]=8'h07;reg zm[67]=8'hF0;
+	reg zm[68]=8'h08;reg zm[69]=8'h88;reg zm[70]=8'h11;reg zm[71]=8'h04;
+	reg zm[72]=8'h11;reg zm[73]=8'h04;reg zm[74]=8'h09;reg zm[75]=8'h04;
+	reg zm[76]=8'h00;reg zm[77]=8'hF8;reg zm[78]=8'h00;reg zm[79]=8'h00;//"6",4
+	
+	reg zm[80]=8'h00;reg zm[81]=8'h00;reg zm[82]=8'h00;reg zm[83]=8'h00;
+	reg zm[84]=8'h08;reg zm[85]=8'h04;reg zm[86]=8'h08;reg zm[87]=8'h04;
+	reg zm[88]=8'h1F;reg zm[89]=8'hFC;reg zm[90]=8'h00;reg zm[91]=8'h04;
+	reg zm[92]=8'h00;reg zm[93]=8'h04;reg zm[94]=8'h00;reg zm[95]=8'h00;//"1",5
+	
+	reg zm[96]=8'h00;reg zm[97]=8'h00;reg zm[98]=8'h07;reg zm[99]=8'hF0;
+	reg zm[100]=8'h08;reg zm[101]=8'h08;reg zm[102]=8'h10;reg zm[103]=8'h04;
+	reg zm[104]=8'h10;reg zm[105]=8'h04;reg zm[106]=8'h08;reg zm[107]=8'h08;
+	reg zm[108]=8'h07;reg zm[109]=8'hF0;reg zm[110]=8'h00;reg zm[111]=8'h00;//"0",6
+end
+
+always @(*) begin
+	if(!rst_n)
+		next_state = WaitInit;
+	else begin
+		case(state)
+			WaitInit: next_state = init_done ? WriteData : WaitInit;
+			WriteData: next_state = (zm_cnt==8'd111) ? Done : WriteData;
+			Done: next_state = Done;
+		endcase
+	end
+end
+
+always @(posedge clk,negedge rst_n) begin
+	if(!rst_n) begin
+		wren <= 1'b0;
+		data <= 8'd0;
+	end
+	else begin
+		case(state)
+			WaitInit:begin
+				wren <= 1'b0;
+				data <= 8'd0;
+			end
+			
+			WriteData:begin
+				wren <= 1'b1;
+				data <= zm[zm_cnt];
+			end
+			Done:begin
+				wren <= 1'b0;
+				data <= 8'd0;
+			end	
+		endcase
+	end
+
+end
+
+
+always @(posedge clk,negedge rst_n) begin
+	if(!rst_n) begin
+		cnt_zm <= 8'd0;
+		wraddress <= 10'd0;
+	end
+	else begin
+		case(cnt_zm)
+			8'd7: cnt_zm <= 8'd16;
+			8'd15: cnt_zm <= 8'd24;
+			8'd23: cnt_zm <= 8'd32;
+			8'd31: cnt_zm <= 8'd40;
+			8'd39: cnt_zm <= 8'd48;
+			8'd47: cnt_zm <= 8'd56;
+			8'd55: cnt_zm <= 8'd64;
+			8'd63: cnt_zm <= 8'd72;
+			8'd71: cnt_zm <= 8'd80;
+			8'd79: cnt_zm <= 8'd88;
+			8'd87: cnt_zm <= 8'd96;
+			8'd95: cnt_zm <= 8'd104;
+			8'd103: begin cnt_zm <= 8'd8;wraddress<=10'd128;end
+			8'd111: cnt_zm <= 8'd0;
+			default:
+				cnt_zm <= cnt_zm + 1'b1;
+		endcase
+		if(state==WriteData)
+			wraddress <= wraddress + 1'b1;
+	end
+end
+
+always @(posedge clk,negedge rst_n) begin
+	if(!rst_n)
+		state <= WaitInit;
+	else
+		state <= next_state;
+end
+
+endmodule

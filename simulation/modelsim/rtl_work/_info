@@ -1,0 +1,3269 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/FPGA_Study/MyStudy2/OLED/simulation/modelsim
+va_graycounter
+Z1 !s110 1638198239
+!i10b 1
+!s100 nH]fheH07VWg[3ZnbC2JG2
+IRU5D1?McjcidCo=n2SJzZ2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1536793856
+Z4 8E:/FPGA_Study/MyStudy2/OLED/simulation/modelsim/altera_mf.v
+Z5 FE:/FPGA_Study/MyStudy2/OLED/simulation/modelsim/altera_mf.v
+L0 52630
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1638198238.000000
+Z8 !s107 E:/FPGA_Study/MyStudy2/OLED/simulation/modelsim/altera_mf.v|
+Z9 !s90 -reportprogress|30|-work|work|E:/FPGA_Study/MyStudy2/OLED/simulation/modelsim/altera_mf.v|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+valt3pram
+R1
+!i10b 1
+!s100 HDnz9`zEO@D]Y2@VN3g7U2
+IQZDOQEn5JDDgVKF9Z[>R_0
+R2
+R0
+R3
+R4
+R5
+L0 50822
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valt_aeq_s4
+R1
+!i10b 1
+!s100 KeoIG6_MGH=aLhP3PKiCZ2
+I]23VZW2NX?WH_Mke]zV>A3
+R2
+R0
+R3
+R4
+R5
+L0 53581
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valt_cal
+R1
+!i10b 1
+!s100 PPlWljInZQ:M>ZkRN<PA`3
+I<O7=<<dTA;]k8`XUK9A]I0
+R2
+R0
+R3
+R4
+R5
+L0 53050
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valt_cal_av
+R1
+!i10b 1
+!s100 SSD9iEgjcOzQOEo5LYhPV3
+IS3L`iQHV?6g`iQb6hPOVL0
+R2
+R0
+R3
+R4
+R5
+L0 53474
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valt_cal_c3gxb
+R1
+!i10b 1
+!s100 HbOnXE_HBU[NoA3W_8c9j3
+IdabMFh8[BNX_Sd<QXCdiB2
+R2
+R0
+R3
+R4
+R5
+L0 53277
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valt_cal_mm
+R1
+!i10b 1
+!s100 ^WWVTTV7TTUS6b=5]H98W3
+IXBn=]mb`AmjQC9fM;eH[i2
+R2
+R0
+R3
+R4
+R5
+L0 53152
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valt_cal_sv
+R1
+!i10b 1
+!s100 W:zVS?78>nmY8dn;O>l=j3
+IG?EfJD`>H^i;3eN^YPON]0
+R2
+R0
+R3
+R4
+R5
+L0 53377
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valt_dfe
+R1
+!i10b 1
+!s100 mFYkgRFMULR:YGL_gjJGg2
+IE[=fV0>EI1z:8m1[aOJYb3
+R2
+R0
+R3
+R4
+R5
+L0 53958
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valt_eyemon
+R1
+!i10b 1
+!s100 MXb>i97GN1QMJOO5?V=][1
+IdmXUP<LaEI3LD4Vz^X`6Z0
+R2
+R0
+R3
+R4
+R5
+L0 53678
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valt_fault_injection
+R1
+!i10b 1
+!s100 5jDE0X52`_zRAAaeAjV8_2
+Ij2JRFBCFm>Ph<PQ27A9Xi3
+R2
+R0
+R3
+R4
+R5
+L0 56026
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valtaccumulate
+R1
+!i10b 1
+!s100 L^_Z=N1Bi:;:jQ0SB<AW@1
+IGXJo<oI5QN<5D^`4>Y8jW2
+R2
+R0
+R3
+R4
+R5
+L0 34797
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valtclklock
+R1
+!i10b 1
+!s100 HO;m5Z0o>f2K]>8hnKlH21
+I`MSQ;33cHG`0[X1LeUB5b0
+R2
+R0
+R3
+R4
+R5
+L0 45467
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valtddio_bidir
+R1
+!i10b 1
+!s100 P8Vh]dSU_=P:L1`28o>W@3
+IoFU_7kZ=fiKGHeVcFZ9ge1
+R2
+R0
+R3
+R4
+R5
+L0 46907
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valtddio_in
+R1
+!i10b 1
+!s100 llo2RO_6e::bM_b6j1I5@3
+IY^UdmoF`@^Zoci[z4K2oe3
+R2
+R0
+R3
+R4
+R5
+L0 46393
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valtddio_out
+R1
+!i10b 1
+!s100 gTKiC04kma=dmHhi>iDdK3
+I7D[FJfKR;Lz:kDS]QPhGD0
+R2
+R0
+R3
+R4
+R5
+L0 46656
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valtdpram
+R1
+!i10b 1
+!s100 DVhf;m02[QL;DdQm19<co3
+I4kgX@0azmz1d4Dz6l>j3W3
+R2
+R0
+R3
+R4
+R5
+L0 47046
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vALTERA_DEVICE_FAMILIES
+Z12 !s110 1638198238
+!i10b 1
+!s100 3ZXK5HH@J[`Nj4EIGNkM81
+I@BeI]86l@m3JSz_MF3MQ]2
+R2
+R0
+R3
+R4
+R5
+L0 1432
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@a@l@t@e@r@a_@d@e@v@i@c@e_@f@a@m@i@l@i@e@s
+vALTERA_MF_HINT_EVALUATION
+R12
+!i10b 1
+!s100 H@=B>6:NKV5a4SPhmB`Qa3
+If?eIo<mHXIF24mCCMKdhR1
+R2
+R0
+R3
+R4
+R5
+L0 1310
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@a@l@t@e@r@a_@m@f_@h@i@n@t_@e@v@a@l@u@a@t@i@o@n
+vALTERA_MF_MEMORY_INITIALIZATION
+R12
+!i10b 1
+!s100 V<`4BjngGbV5``zCm0C<j3
+I:oaC2_dfJWR0W7Zb?2BS>2
+R2
+R0
+R3
+R4
+R5
+L0 71
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@a@l@t@e@r@a_@m@f_@m@e@m@o@r@y_@i@n@i@t@i@a@l@i@z@a@t@i@o@n
+valtera_std_synchronizer
+R1
+!i10b 1
+!s100 Da6DT]ODzeG3QIg?eS`E43
+IhJDB3bb3OZa0OK64IR=K90
+R2
+R0
+R3
+R4
+R5
+L0 52856
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valtera_std_synchronizer_bundle
+R1
+!i10b 1
+!s100 :bL?F5WWjD7gdnNJOBnX73
+IoGMJFYT2d]nMmKC5<ISBi2
+R2
+R0
+R3
+R4
+R5
+L0 53015
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valtera_syncram_derived
+R1
+!i10b 1
+!s100 =_[5eKRn_W?S=Oed0NJSF3
+IPlVVoMnM1z0^DLIXn=IgK3
+R2
+R0
+R3
+R4
+R5
+L0 31873
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valtera_syncram_derived_forwarding_logic
+R1
+!i10b 1
+!s100 Q<m[X8AHgTI?1WRR[gFGf2
+IlM_S`ajj[2<l095iQ_97>2
+R2
+R0
+R3
+R4
+R5
+L0 34708
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valtfp_mult
+R1
+!i10b 1
+!s100 ?VDTHS[2DLelOWRa^Bhmk0
+I4Yb82SWGLW_JfOk55IN5f2
+R2
+R0
+R3
+R4
+R5
+L0 44580
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valtlvds_rx
+R12
+!i10b 1
+!s100 z^U1YPKzRDPNjF9zL9Ka>1
+IbfQAOiVOQ63JION::?7nO0
+R2
+R0
+R3
+R4
+R5
+L0 23844
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valtlvds_tx
+R12
+!i10b 1
+!s100 cgBQa:752AZ?[4SfV7MFW1
+Ii@;>]@B@X?O^ajGH=NN1@1
+R2
+R0
+R3
+R4
+R5
+L0 27430
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valtmult_accum
+R1
+!i10b 1
+!s100 S^nkgTQhS2MMYBYK[9VR^1
+IOLkkS<:X1cS6MgI5^?mEC1
+R2
+R0
+R3
+R4
+R5
+L0 35039
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valtmult_add
+R1
+!i10b 1
+!s100 79O3LPYDalhNa6dD2HOEV3
+IfRkIGj[0ZflG5AXmT?BEB1
+R2
+R0
+R3
+R4
+R5
+L0 37244
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valtparallel_flash_loader
+R1
+!i10b 1
+!s100 [K1fC<ne6eD;S9gMObg;i2
+IjDEV[JJ1`;Z00?5:d_j0=0
+R2
+R0
+R3
+R4
+R5
+L0 55871
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valtpll
+R12
+!i10b 1
+!s100 G`VK1mbIf4hOhHY2143W]0
+IJ8SYJRjO7=VV10_4GH?Km0
+R2
+R0
+R3
+R4
+R5
+L0 21830
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valtserial_flash_loader
+R1
+!i10b 1
+!s100 Aa;:PLi7H7<1MY:NJ29=f1
+IO=Ld2L5:@MNROIRIQI;LK1
+R2
+R0
+R3
+R4
+R5
+L0 55992
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valtshift_taps
+R1
+!i10b 1
+!s100 ehk2l10G1R<k?Xo:jIZM43
+IJ^2G<aX2B507]BY9?cTVE3
+R2
+R0
+R3
+R4
+R5
+L0 52485
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valtsource_probe
+R1
+!i10b 1
+!s100 mVL;?YcH^fC<;=PkX4gW21
+Im8TLl2MCSWhX>2nTV]HX63
+R2
+R0
+R3
+R4
+R5
+L0 56152
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valtsqrt
+R1
+!i10b 1
+!s100 [^4W`[NFV1OXUlH7Y@VMA3
+IRP=:96kghe>OIY1R[;oce2
+R2
+R0
+R3
+R4
+R5
+L0 45265
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valtsquare
+R1
+!i10b 1
+!s100 gOH4bo8zM>BB=?Z@eAnei3
+Ii6VEPYLhNbINM>BLe3>e<3
+R2
+R0
+R3
+R4
+R5
+L0 52721
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valtstratixii_oct
+R1
+!i10b 1
+!s100 MAlXiWAaDXY8B?OZ6QaXi1
+IacnznOhWYkhf4FOMcg=P>3
+R2
+R0
+R3
+R4
+R5
+L0 55855
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valtsyncram
+R1
+!i10b 1
+!s100 5i5oQ;ziYZf]N868LUz1f0
+I6?Bj2k=Ebm_Z;65]N;ZFX0
+R2
+R0
+R3
+R4
+R5
+L0 47591
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valtsyncram_body
+R1
+!i10b 1
+!s100 Fmb?SbUcm[S^UG^Ie<1TU2
+IEn2EZSE]L@J`bJ<aCXHE72
+R2
+R0
+R3
+R4
+R5
+L0 47885
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+varm_m_cntr
+R12
+!i10b 1
+!s100 ;kY_Xo?Dl6S0nP3ahI=gz1
+I4nnlS7Qm:oNfGB8Y3BdJZ0
+R2
+R0
+R3
+R4
+R5
+L0 6559
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+varm_n_cntr
+R12
+!i10b 1
+!s100 elOOa]50IId@IBJaijHfL3
+IT>id6E:9K<KLTjJDIFR5]2
+R2
+R0
+R3
+R4
+R5
+L0 6639
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+varm_scale_cntr
+R12
+!i10b 1
+!s100 FVc`Po@6<PE64YiCJ<9SO1
+Ik>6l[[?aalN]ej>D9jhW=1
+R2
+R0
+R3
+R4
+R5
+L0 6721
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vcda_m_cntr
+R12
+!i10b 1
+!s100 QD4LR0^9i=b^UTGkbl8lU0
+IM3Ubd:j:l?UIdbnhja>a40
+R2
+R0
+R3
+R4
+R5
+L0 14498
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vcda_n_cntr
+R12
+!i10b 1
+!s100 zG<HUbk=DkTN1aY39>hL83
+I_n2hbJ3gn7f_0<;RN_2XN2
+R2
+R0
+R3
+R4
+R5
+L0 14579
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vcda_scale_cntr
+R12
+!i10b 1
+!s100 No?3cQbC?:h6:BNB;;SEH3
+I@]oim?N[]IO<[T_i<f5O@1
+R2
+R0
+R3
+R4
+R5
+L0 14650
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vclk_fenpin
+Z13 !s110 1638198188
+!i10b 1
+!s100 iBlH=ke_RVP[9@_VkOc;n1
+I_jRSZC:fN`=L?dhhAQPSg1
+R2
+R0
+w1638094406
+8E:/FPGA_Study/MyStudy2/OLED/rtl/clk_fenpin.v
+FE:/FPGA_Study/MyStudy2/OLED/rtl/clk_fenpin.v
+L0 1
+R6
+r1
+!s85 0
+31
+Z14 !s108 1638198188.000000
+!s107 E:/FPGA_Study/MyStudy2/OLED/rtl/clk_fenpin.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/FPGA_Study/MyStudy2/OLED/rtl|E:/FPGA_Study/MyStudy2/OLED/rtl/clk_fenpin.v|
+!i113 1
+Z15 o-vlog01compat -work work
+Z16 !s92 -vlog01compat -work work +incdir+E:/FPGA_Study/MyStudy2/OLED/rtl
+R11
+vcycloneiiigl_post_divider
+R12
+!i10b 1
+!s100 XmaQ:Zb`g[^2]idmSkl_a2
+IZg=6iA9iYPn@T`i<4>cE<0
+R2
+R0
+R3
+R4
+R5
+L0 18368
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vdcfifo
+R1
+!i10b 1
+!s100 B]NKPE<4NbOAdfg^HodX=0
+I@>FeMz6DcUDX3LBg>X0bJ2
+R2
+R0
+R3
+R4
+R5
+L0 31728
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vdcfifo_async
+R1
+!i10b 1
+!s100 7aWA7;eCH`]gJNAVPUe`C3
+I<z^eNFBEG_GiT^Q?VGQJG3
+R2
+R0
+R3
+R4
+R5
+L0 29929
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vdcfifo_dffpipe
+R1
+!i10b 1
+!s100 126eA=L9^`Of;]l=bXIG>3
+I^XVHeh>9gUgmHZ@DbZoNE2
+R2
+R0
+R3
+R4
+R5
+L0 29699
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vdcfifo_fefifo
+R1
+!i10b 1
+!s100 ch0SgFonRERLmXcTkh_Ad2
+IBFbUiS4G:BCGkTU:N3V=U2
+R2
+R0
+R3
+R4
+R5
+L0 29777
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vdcfifo_low_latency
+R1
+!i10b 1
+!s100 1e5XPHFDM3clYfBlemN>R1
+I9KE8mUEaNTCl_NM8>i]Rn0
+R2
+R0
+R3
+R4
+R5
+L0 30780
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vdcfifo_mixed_widths
+R1
+!i10b 1
+!s100 Zo[X;0[A^IPn]51R467Mj0
+ILY1`]89GE<THLBL^VOggB1
+R2
+R0
+R3
+R4
+R5
+L0 31398
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vdcfifo_sync
+R1
+!i10b 1
+!s100 <U:cdL@Y38WiQ7TIJI<iU3
+I<[WR>fBR@<zhd@h]S]gHZ0
+R2
+R0
+R3
+R4
+R5
+L0 30471
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vdffp
+R12
+!i10b 1
+!s100 ZA13E65LHGL>f1aS5fSdc3
+INdFI9Xkcz4;og:GMzQg:o0
+R2
+R0
+R3
+R4
+R5
+L0 2337
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vdummy_hub
+R1
+!i10b 1
+!s100 kM`L8z;TG?ZdY`[i__J[M1
+I[AzLR1nhY2lhRzGh57eN01
+R2
+R0
+R3
+R4
+R5
+L0 55329
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vflexible_lvds_rx
+R12
+!i10b 1
+!s100 Xd?<6>BYc_MGa_T=E_]cE2
+IJf_mZ^L]8]cX>K4KS8h;30
+R2
+R0
+R3
+R4
+R5
+L0 25897
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vflexible_lvds_tx
+R1
+!i10b 1
+!s100 ZW9ZlkcTiM:Yo=4PbLf?I0
+IH<:OF;8T0]nef7a@E>^4m1
+R2
+R0
+R3
+R4
+R5
+L0 29139
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vio_buf_opdrn
+R1
+!i10b 1
+!s100 =^<AH`I:TA`[9YUe=h1;_1
+I4IV6QfUR;Sj`<Yd>:RaQh2
+R2
+R0
+Z17 w1536815359
+Z18 8E:/FPGA_Study/MyStudy2/OLED/simulation/modelsim/sgate.v
+Z19 FE:/FPGA_Study/MyStudy2/OLED/simulation/modelsim/sgate.v
+L0 248
+R6
+r1
+!s85 0
+31
+Z20 !s108 1638198239.000000
+Z21 !s107 E:/FPGA_Study/MyStudy2/OLED/simulation/modelsim/sgate.v|
+Z22 !s90 -reportprogress|30|-work|work|E:/FPGA_Study/MyStudy2/OLED/simulation/modelsim/sgate.v|
+!i113 1
+R10
+R11
+vio_buf_tri
+R1
+!i10b 1
+!s100 1H>;>BLi]?aVfL[[^U83N2
+I5Ji=bAJL]2jOoK@0WPPCj0
+R2
+R0
+R17
+R18
+R19
+L0 220
+R6
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 1
+R10
+R11
+vjtag_tap_controller
+R1
+!i10b 1
+!s100 _hM3Se4FGl;ITz00MPVXd0
+IP98:;a:b?KW_V@GX11WZX3
+R2
+R0
+R3
+R4
+R5
+L0 54872
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vlcell
+R12
+!i10b 1
+!s100 bennFdYA;E0lM[zHEL7e`1
+I=3mL0Q>598R9JGBDaf?A53
+R2
+R0
+R3
+R4
+R5
+L0 34
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vlpm_abs
+R12
+!i10b 1
+!s100 O9i<YS?ECZC8XU2m2T>HQ0
+I=1F_1iT:::YAM;lO=@GW?3
+R2
+R0
+Z23 w1536793767
+Z24 8E:/FPGA_Study/MyStudy2/OLED/simulation/modelsim/220model.v
+Z25 FE:/FPGA_Study/MyStudy2/OLED/simulation/modelsim/220model.v
+L0 3479
+R6
+r1
+!s85 0
+31
+R7
+Z26 !s107 E:/FPGA_Study/MyStudy2/OLED/simulation/modelsim/220model.v|
+Z27 !s90 -reportprogress|300|-work|work|E:/FPGA_Study/MyStudy2/OLED/simulation/modelsim/220model.v|
+!i113 1
+R10
+R11
+vlpm_add_sub
+R12
+!i10b 1
+!s100 F?SK4NkV;2lfzWh1<UGXX1
+I^>h>V5bBh`YR2]eRO<2:20
+R2
+R0
+R23
+R24
+R25
+L0 2606
+R6
+r1
+!s85 0
+31
+R7
+R26
+R27
+!i113 1
+R10
+R11
+vlpm_and
+R12
+!i10b 1
+!s100 =VzM;OhZJQ@Wjl;2UNDFd0
+I>23^3m1OL@Ga82OA^[In71
+R2
+R0
+R23
+R24
+R25
+L0 1682
+R6
+r1
+!s85 0
+31
+R7
+R26
+R27
+!i113 1
+R10
+R11
+vlpm_bipad
+R12
+!i10b 1
+!s100 2eZaafdWMNbm_oGJD`IS61
+I7Z2_51:K@k`V[LWC6CmGl0
+R2
+R0
+R23
+R24
+R25
+L0 6690
+R6
+r1
+!s85 0
+31
+R7
+R26
+R27
+!i113 1
+R10
+R11
+vlpm_bustri
+R12
+!i10b 1
+!s100 J0ek53f5aGEe08O]9M7g41
+Ia;ACUdBcliNFHBamV_>G41
+R2
+R0
+R23
+R24
+R25
+L0 1972
+R6
+r1
+!s85 0
+31
+R7
+R26
+R27
+!i113 1
+R10
+R11
+vlpm_clshift
+R12
+!i10b 1
+!s100 CP<i@cgQUkc]3i2];nPVY1
+IlKlfY[>kOAGWXWDbc`o[h3
+R2
+R0
+R23
+R24
+R25
+L0 2321
+R6
+r1
+!s85 0
+31
+R7
+R26
+R27
+!i113 1
+R10
+R11
+vlpm_compare
+R12
+!i10b 1
+!s100 HQ<EAlR:a2A5A=OK;22fi1
+I:DKHU2CO=>ai63KQJLCEJ2
+R2
+R0
+R23
+R24
+R25
+L0 2812
+R6
+r1
+!s85 0
+31
+R7
+R26
+R27
+!i113 1
+R10
+R11
+vlpm_constant
+R12
+!i10b 1
+!s100 FkMf<gh?_E[^916k78`m>1
+I`=U:k`fVIzVS7;_bkIO8U2
+R2
+R0
+R23
+R24
+R25
+L0 1578
+R6
+r1
+!s85 0
+31
+R7
+R26
+R27
+!i113 1
+R10
+R11
+vlpm_counter
+R12
+!i10b 1
+!s100 eo?6DE3TT[9JM<l=FCS7Z1
+Ia;bfP7Io:R`Q>I=MDUgAY1
+R2
+R0
+R23
+R24
+R25
+L0 3543
+R6
+r1
+!s85 0
+31
+R7
+R26
+R27
+!i113 1
+R10
+R11
+vlpm_decode
+R12
+!i10b 1
+!s100 9gcEgnXo<S5MFjD`]mj9V3
+IiDY7EB]d`]Q6o8QZR0GCz3
+R2
+R0
+R23
+R24
+R25
+L0 2193
+R6
+r1
+!s85 0
+31
+R7
+R26
+R27
+!i113 1
+R10
+R11
+vLPM_DEVICE_FAMILIES
+R12
+!i10b 1
+!s100 L`<Bd0JTNL:2;lDY0S`zk1
+IBn;IlY3iF8fb2bHb1YLQ:2
+R2
+R0
+R23
+R24
+R25
+L0 1367
+R6
+r1
+!s85 0
+31
+R7
+R26
+R27
+!i113 1
+R10
+R11
+n@l@p@m_@d@e@v@i@c@e_@f@a@m@i@l@i@e@s
+vlpm_divide
+R12
+!i10b 1
+!s100 15o]`427J8Z2`]8eaOoR72
+IAfhmD4]^F@lXfN?25ci2U0
+R2
+R0
+R23
+R24
+R25
+L0 3272
+R6
+r1
+!s85 0
+31
+R7
+R26
+R27
+!i113 1
+R10
+R11
+vlpm_ff
+R12
+!i10b 1
+!s100 WJALO?TCG1jof9J^zM@jz1
+ISP<K2:YeM8X_;NgEQ5l2Z2
+R2
+R0
+R23
+R24
+R25
+L0 3951
+R6
+r1
+!s85 0
+31
+R7
+R26
+R27
+!i113 1
+R10
+R11
+vlpm_fifo
+R12
+!i10b 1
+!s100 MkW5lD_hnT<agW5lDCMNJ2
+I35Y2159e^3WC6<5N@`;@Y2
+R2
+R0
+R23
+R24
+R25
+L0 5398
+R6
+r1
+!s85 0
+31
+R7
+R26
+R27
+!i113 1
+R10
+R11
+vlpm_fifo_dc
+R12
+!i10b 1
+!s100 OX@8oU3SO:LJ;3_=8UL@^3
+IkBgMHQ:=fkVJ[9_^6^NAC0
+R2
+R0
+R23
+R24
+R25
+L0 6455
+R6
+r1
+!s85 0
+31
+R7
+R26
+R27
+!i113 1
+R10
+R11
+vlpm_fifo_dc_async
+R12
+!i10b 1
+!s100 W7]nBZXG1HNLF0lVB9i:n0
+IV?:IRfeS]QnWnkS^>9kIf0
+R2
+R0
+R23
+R24
+R25
+L0 6018
+R6
+r1
+!s85 0
+31
+R7
+R26
+R27
+!i113 1
+R10
+R11
+vlpm_fifo_dc_dffpipe
+R12
+!i10b 1
+!s100 <2OGni`F^Mh0HMAddVi2B3
+I=>cmP8<U3PNSFfkn9HjQN0
+R2
+R0
+R23
+R24
+R25
+L0 5729
+R6
+r1
+!s85 0
+31
+R7
+R26
+R27
+!i113 1
+R10
+R11
+vlpm_fifo_dc_fefifo
+R12
+!i10b 1
+!s100 RlCXejU>]z0ZLYIBZPn^`2
+Iz2SQYGkHzdXl;P9FfeBcH0
+R2
+R0
+R23
+R24
+R25
+L0 5816
+R6
+r1
+!s85 0
+31
+R7
+R26
+R27
+!i113 1
+R10
+R11
+vLPM_HINT_EVALUATION
+R12
+!i10b 1
+!s100 `WKMS]SM@JbIe0gCi<3f82
+IHKa[Y[1V=BR7DfT2L[dZC1
+R2
+R0
+R23
+R24
+R25
+L0 1257
+R6
+r1
+!s85 0
+31
+R7
+R26
+R27
+!i113 1
+R10
+R11
+n@l@p@m_@h@i@n@t_@e@v@a@l@u@a@t@i@o@n
+vlpm_inpad
+R12
+!i10b 1
+!s100 V5b_N<Y1MO:^NFkHi2nm:1
+IM14CO^aJ<kR<DP1RO>gBc3
+R2
+R0
+R23
+R24
+R25
+L0 6578
+R6
+r1
+!s85 0
+31
+R7
+R26
+R27
+!i113 1
+R10
+R11
+vlpm_inv
+R12
+!i10b 1
+!s100 ^?DV;oC5m>1zlEkCWIQzM1
+Ibb6VUAzYI2SSE@[l469W:0
+R2
+R0
+R23
+R24
+R25
+L0 1629
+R6
+r1
+!s85 0
+31
+R7
+R26
+R27
+!i113 1
+R10
+R11
+vlpm_latch
+R12
+!i10b 1
+!s100 X=b4n[Gn]4E]9eP=?E?Ed2
+IPd<mBeMCV1Z5P5<2;C[SO2
+R2
+R0
+R23
+R24
+R25
+L0 3827
+R6
+r1
+!s85 0
+31
+R7
+R26
+R27
+!i113 1
+R10
+R11
+vLPM_MEMORY_INITIALIZATION
+R12
+!i10b 1
+!s100 DR_SV_J4fzH0gTOLESO6;1
+Ih;S;d03WP:O_WTmL9E[;m3
+R2
+R0
+R23
+R24
+R25
+L0 77
+R6
+r1
+!s85 0
+31
+R7
+R26
+R27
+!i113 1
+R10
+R11
+n@l@p@m_@m@e@m@o@r@y_@i@n@i@t@i@a@l@i@z@a@t@i@o@n
+vlpm_mult
+R12
+!i10b 1
+!s100 c@WEh7lH>@G6PFA3ZG8WE1
+IO?]jOA<eO?cBh`F6z_feE2
+R2
+R0
+R23
+R24
+R25
+L0 2986
+R6
+r1
+!s85 0
+31
+R7
+R26
+R27
+!i113 1
+R10
+R11
+vlpm_mux
+R12
+!i10b 1
+!s100 27TaUnFLk_F<gH`najTXL3
+IV;Mn?Lb=dboZBaU=@U5CW0
+R2
+R0
+R23
+R24
+R25
+L0 2058
+R6
+r1
+!s85 0
+31
+R7
+R26
+R27
+!i113 1
+R10
+R11
+vlpm_or
+R12
+!i10b 1
+!s100 PVk12KKE0fG4m[5a;LJV22
+IXP3o2`Y6@[PdNaKoGF1NP1
+R2
+R0
+R23
+R24
+R25
+L0 1762
+R6
+r1
+!s85 0
+31
+R7
+R26
+R27
+!i113 1
+R10
+R11
+vlpm_outpad
+R12
+!i10b 1
+!s100 co;D>HcBWR;nkbnW:TU;e3
+I>G9o]foWa:0K5V>1lE0I^3
+R2
+R0
+R23
+R24
+R25
+L0 6634
+R6
+r1
+!s85 0
+31
+R7
+R26
+R27
+!i113 1
+R10
+R11
+vlpm_ram_dp
+R12
+!i10b 1
+!s100 @ZY2^og4WbO?9Xj=SKCDI2
+IZ>G=Aka0Z;]hb[4iT[9:22
+R2
+R0
+R23
+R24
+R25
+L0 4630
+R6
+r1
+!s85 0
+31
+R7
+R26
+R27
+!i113 1
+R10
+R11
+vlpm_ram_dq
+R12
+!i10b 1
+!s100 ZPNM`dJFE>ho=S95QY9V32
+I`[V<k4hmUBLZ`>AYDY[gV1
+R2
+R0
+R23
+R24
+R25
+L0 4374
+R6
+r1
+!s85 0
+31
+R7
+R26
+R27
+!i113 1
+R10
+R11
+vlpm_ram_io
+R12
+!i10b 1
+!s100 gJ2W7zgl`a;W2CY34?2YX0
+IkzUFYigUYH5zEc;9NHk`e3
+R2
+R0
+R23
+R24
+R25
+L0 4921
+R6
+r1
+!s85 0
+31
+R7
+R26
+R27
+!i113 1
+R10
+R11
+vlpm_rom
+R12
+!i10b 1
+!s100 nF2Ej@GG7CioJC5oY3^^e3
+IAX7X5m=Ga@PadgK5U1Q0O2
+R2
+R0
+R23
+R24
+R25
+L0 5183
+R6
+r1
+!s85 0
+31
+R7
+R26
+R27
+!i113 1
+R10
+R11
+vlpm_shiftreg
+R12
+!i10b 1
+!s100 OZ9lf>aZLR1GDH6;N3?RH3
+ISFhOQgzR949K]iR]bG9gN2
+R2
+R0
+R23
+R24
+R25
+L0 4170
+R6
+r1
+!s85 0
+31
+R7
+R26
+R27
+!i113 1
+R10
+R11
+vlpm_xor
+R12
+!i10b 1
+!s100 5BXY01B<ogg>d2@mk^Kmo0
+I0>GoMh5Vz4kh:[KMLCbL82
+R2
+R0
+R23
+R24
+R25
+L0 1843
+R6
+r1
+!s85 0
+31
+R7
+R26
+R27
+!i113 1
+R10
+R11
+vMF_cycloneiii_pll
+R12
+!i10b 1
+!s100 ;H5531N<SGD^?WSOCf<?j0
+IelTEIl4ODomZ][Cm<6kVQ3
+R2
+R0
+R3
+R4
+R5
+L0 14777
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@m@f_cycloneiii_pll
+vMF_cycloneiiigl_m_cntr
+R12
+!i10b 1
+!s100 WAY[0F03id5EhzJTSS8jb2
+Io]@TDQ?BT0CoIbTc[VJD30
+R2
+R0
+R3
+R4
+R5
+L0 18106
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@m@f_cycloneiiigl_m_cntr
+vMF_cycloneiiigl_n_cntr
+R12
+!i10b 1
+!s100 WO0G_3G>20aL^7knT0Wi[2
+I]Qk_;lJ_zWL[mCH]T?b3l2
+R2
+R0
+R3
+R4
+R5
+L0 18187
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@m@f_cycloneiiigl_n_cntr
+vMF_cycloneiiigl_pll
+R12
+!i10b 1
+!s100 Nkl783SCEAT;P]hPlMM7Z0
+I?ZdCD`59l7NE1]`hV594N3
+R2
+R0
+R3
+R4
+R5
+L0 18457
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@m@f_cycloneiiigl_pll
+vMF_cycloneiiigl_scale_cntr
+R12
+!i10b 1
+!s100 X1N<ddo55KJCYDFmQ=a[22
+IS9MZgcoEFGlWP9^hhO_`I3
+R2
+R0
+R3
+R4
+R5
+L0 18258
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@m@f_cycloneiiigl_scale_cntr
+vMF_pll_reg
+R12
+!i10b 1
+!s100 @JCc5VRmiccQA8?<zJNaB0
+IX>0]_?TF26mcG_S@GOO^z2
+R2
+R0
+R3
+R4
+R5
+L0 2694
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@m@f_pll_reg
+vMF_stratix_pll
+R12
+!i10b 1
+!s100 al_a^5D4m8PE5_<07@LFV0
+I5YkP^QGl;a>T5X<>X:2?13
+R2
+R0
+R3
+R4
+R5
+L0 2753
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@m@f_stratix_pll
+vMF_stratixii_pll
+R12
+!i10b 1
+!s100 DFAK2L=S5gNgjW2B6BYMP2
+IKXR]jeagTP]fCjB4fJaIE2
+R2
+R0
+R3
+R4
+R5
+L0 6844
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@m@f_stratixii_pll
+vMF_stratixiii_pll
+R12
+!i10b 1
+!s100 MNZhJH9[nfklX_I@:6;UM1
+I1[<9gL5EkhkbRX@@SPNl`2
+R2
+R0
+R3
+R4
+R5
+L0 10675
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@m@f_stratixiii_pll
+vmux21
+R1
+!i10b 1
+!s100 Q=nPK?Y`8Z_5n_P1iP>f42
+I_lDWz9<ck5E^llDfb;TLG2
+R2
+R0
+R17
+R18
+R19
+L0 190
+R6
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 1
+R10
+R11
+voled_drive
+R13
+!i10b 1
+!s100 GR[9_[8Wnn10S>`ZMWEGL1
+IVQh]:cCUShPIomRMbM3YI1
+R2
+R0
+w1638196558
+8E:/FPGA_Study/MyStudy2/OLED/rtl/oled_drive.v
+FE:/FPGA_Study/MyStudy2/OLED/rtl/oled_drive.v
+L0 1
+R6
+r1
+!s85 0
+31
+R14
+!s107 E:/FPGA_Study/MyStudy2/OLED/rtl/oled_drive.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/FPGA_Study/MyStudy2/OLED/rtl|E:/FPGA_Study/MyStudy2/OLED/rtl/oled_drive.v|
+!i113 1
+R15
+R16
+R11
+voled_init
+R13
+!i10b 1
+!s100 Mnd1^hDm[:J@^T5GB2V0M0
+I8=K>ODI5eRfDKXSZQ=:GU1
+R2
+R0
+w1637986553
+8E:/FPGA_Study/MyStudy2/OLED/rtl/oled_init.v
+FE:/FPGA_Study/MyStudy2/OLED/rtl/oled_init.v
+L0 1
+R6
+r1
+!s85 0
+31
+R14
+!s107 E:/FPGA_Study/MyStudy2/OLED/rtl/oled_init.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/FPGA_Study/MyStudy2/OLED/rtl|E:/FPGA_Study/MyStudy2/OLED/rtl/oled_init.v|
+!i113 1
+R15
+R16
+R11
+voled_show_char
+!s110 1638200633
+!i10b 1
+!s100 ePjF9jZ:3Q:3_:jRkN=o63
+I7h:AQgF;nX>dbbJ@F7:3e0
+R2
+R0
+w1638200624
+8E:/FPGA_Study/MyStudy2/OLED/rtl/oled_show_char.v
+FE:/FPGA_Study/MyStudy2/OLED/rtl/oled_show_char.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1638200633.000000
+!s107 E:/FPGA_Study/MyStudy2/OLED/rtl/oled_show_char.v|
+!s90 -reportprogress|300|-work|work|E:/FPGA_Study/MyStudy2/OLED/rtl/oled_show_char.v|
+!i113 1
+R10
+R11
+voled_show_char_tb
+!s110 1638198245
+!i10b 1
+!s100 mGEQMdFMbbMO`I31oOE:C1
+I^`I6T`7R;X1deeMJH]nlP1
+R2
+R0
+w1638196846
+8E:/FPGA_Study/MyStudy2/OLED/simulation/oled_show_char_tb.v
+FE:/FPGA_Study/MyStudy2/OLED/simulation/oled_show_char_tb.v
+L0 3
+R6
+r1
+!s85 0
+31
+!s108 1638198245.000000
+!s107 E:/FPGA_Study/MyStudy2/OLED/simulation/oled_show_char_tb.v|
+!s90 -reportprogress|300|-work|work|E:/FPGA_Study/MyStudy2/OLED/simulation/oled_show_char_tb.v|
+!i113 1
+R10
+R11
+voper_add
+R1
+!i10b 1
+!s100 dPDYmXWgGKeHhoeFePfPR2
+IgnU2G<@cHm`0mcRC8a_a13
+R2
+R0
+R17
+R18
+R19
+L0 18
+R6
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 1
+R10
+R11
+voper_addsub
+R1
+!i10b 1
+!s100 :Di:Lba[kXJBm`IoE?Bon1
+Iz:3Si]EO0[=JbLi_i^V_U1
+R2
+R0
+R17
+R18
+R19
+L0 95
+R6
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 1
+R10
+R11
+voper_bus_mux
+R1
+!i10b 1
+!s100 83iY7?J9JgD`=KN3I^];33
+I5oFG?3L2>ShT6keh7K3Fb3
+R2
+R0
+R17
+R18
+R19
+L0 1072
+R6
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 1
+R10
+R11
+voper_decoder
+R1
+!i10b 1
+!s100 BhU]JWh4CAH3f[ALIgD?91
+I3a`]?;G0a?M54h@bc>>O50
+R2
+R0
+R17
+R18
+R19
+L0 1036
+R6
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 1
+R10
+R11
+voper_div
+R1
+!i10b 1
+!s100 Q4=5XaPJlA;U9o>EnYQ3Z2
+IhCRjT[hDEWCI`c0k<6D@X1
+R2
+R0
+R17
+R18
+R19
+L0 394
+R6
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 1
+R10
+R11
+voper_latch
+R1
+!i10b 1
+!s100 6TkzBj8lWoX[Wk_Oek;zG0
+ID;D;4<_l30hKHB]A?zYo^0
+R2
+R0
+R17
+R18
+R19
+L0 1135
+R6
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 1
+R10
+R11
+voper_left_shift
+R1
+!i10b 1
+!s100 GzbHDnkb>SB<:N13UI28Z2
+ILF4Fc@nJZ^c^o16UTQ[Oc2
+R2
+R0
+R17
+R18
+R19
+L0 572
+R6
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 1
+R10
+R11
+voper_less_than
+R1
+!i10b 1
+!s100 mkW0GJN@;6C<2gM?VlHk40
+IU32=Z4e_z@W9CKRIF6hla1
+R2
+R0
+R17
+R18
+R19
+L0 853
+R6
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 1
+R10
+R11
+voper_mod
+R1
+!i10b 1
+!s100 KY?eBB<PZPYJ_og7>a4lz1
+IX`mln<<do9UzhGVc53IQ13
+R2
+R0
+R17
+R18
+R19
+L0 483
+R6
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 1
+R10
+R11
+voper_mult
+R1
+!i10b 1
+!s100 hf0gV[nAT0;;hYNBSzZJ:3
+I@BX[a5WD_UNe:hBG^KShF2
+R2
+R0
+R17
+R18
+R19
+L0 274
+R6
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 1
+R10
+R11
+voper_mux
+R1
+!i10b 1
+!s100 1BV^<NLG6]@XcIB4ATlBY2
+IhhfVUVCZHofJBEFLNT4Gk2
+R2
+R0
+R17
+R18
+R19
+L0 945
+R6
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 1
+R10
+R11
+voper_right_shift
+R1
+!i10b 1
+!s100 0GY5J>n8g<mQmG_1Ph1<l2
+I8^Xo_1aW40;J4kJ5FAIKE0
+R2
+R0
+R17
+R18
+R19
+L0 649
+R6
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 1
+R10
+R11
+voper_rotate_left
+R1
+!i10b 1
+!s100 <LHW[F_:n>zBeU4k;`Kfc0
+IlYOS[O0;`bSWJUQiFQ6g01
+R2
+R0
+R17
+R18
+R19
+L0 732
+R6
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 1
+R10
+R11
+voper_rotate_right
+R1
+!i10b 1
+!s100 0odf;mlW;hE0G1:GS066I2
+IQJi4WN3IDINgF73PF:]K;3
+R2
+R0
+R17
+R18
+R19
+L0 793
+R6
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 1
+R10
+R11
+voper_selector
+R1
+!i10b 1
+!s100 W1R9=N?MT:3kj1R0<;l[F0
+IjfaSfhe[H=E<6aQMhooZE1
+R2
+R0
+R17
+R18
+R19
+L0 991
+R6
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 1
+R10
+R11
+vparallel_add
+R1
+!i10b 1
+!s100 i748D:3VgKMiL=o6Ulz@Q1
+Icgf0k>O1RT0MKzK27`G040
+R2
+R0
+R3
+R4
+R5
+L0 51505
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vpll_iobuf
+R12
+!i10b 1
+!s100 LPE1la<H:]9ni0LO[KL^P0
+I4oba@ADP34cN2zk6UMC3d3
+R2
+R0
+R3
+R4
+R5
+L0 2370
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vram_read
+R13
+!i10b 1
+!s100 eNPd[LSbL;oEMiOca^Hf=0
+IKOFVH`MNNEzOLO^8Qn[ma1
+R2
+R0
+w1638111152
+8E:/FPGA_Study/MyStudy2/OLED/rtl/ram_read.v
+FE:/FPGA_Study/MyStudy2/OLED/rtl/ram_read.v
+L0 5
+R6
+r1
+!s85 0
+31
+R14
+!s107 E:/FPGA_Study/MyStudy2/OLED/rtl/ram_read.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/FPGA_Study/MyStudy2/OLED/rtl|E:/FPGA_Study/MyStudy2/OLED/rtl/ram_read.v|
+!i113 1
+R15
+R16
+R11
+vram_show
+Z28 !s110 1638198189
+!i10b 1
+!s100 ]L0SI8KSNiS;1kB5GWg`c3
+I59[IDki_<7NCg4afhzXFC1
+R2
+R0
+w1637983861
+8E:/FPGA_Study/MyStudy2/OLED/ip/ram_show.v
+FE:/FPGA_Study/MyStudy2/OLED/ip/ram_show.v
+Z29 L0 40
+R6
+r1
+!s85 0
+31
+Z30 !s108 1638198189.000000
+!s107 E:/FPGA_Study/MyStudy2/OLED/ip/ram_show.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/FPGA_Study/MyStudy2/OLED/ip|E:/FPGA_Study/MyStudy2/OLED/ip/ram_show.v|
+!i113 1
+R15
+Z31 !s92 -vlog01compat -work work +incdir+E:/FPGA_Study/MyStudy2/OLED/ip
+R11
+vram_write
+R13
+!i10b 1
+!s100 <c1MSgY^<S1z;?Z25HUV40
+IYgI[iKH8LW<XBl;Emc0XU1
+R2
+R0
+w1638094311
+8E:/FPGA_Study/MyStudy2/OLED/rtl/ram_write.v
+FE:/FPGA_Study/MyStudy2/OLED/rtl/ram_write.v
+L0 12
+R6
+r1
+!s85 0
+31
+R14
+!s107 E:/FPGA_Study/MyStudy2/OLED/rtl/ram_write.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/FPGA_Study/MyStudy2/OLED/rtl|E:/FPGA_Study/MyStudy2/OLED/rtl/ram_write.v|
+!i113 1
+R15
+R16
+R11
+vscfifo
+R1
+!i10b 1
+!s100 AjS;[2aVE51>6NQVAh:RQ3
+IGR6lY`gR;4iaVJg72;ia_3
+R2
+R0
+R3
+R4
+R5
+L0 51674
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vsignal_gen
+R1
+!i10b 1
+!s100 1:`2ljV5HAn1J]FiEUXoK1
+IhM?BiI=UQ3TRWF68@P]Za3
+R2
+R0
+R3
+R4
+R5
+L0 54305
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vsld_signaltap
+R1
+!i10b 1
+!s100 YHjWPna1dn?O>jMT6mc1J0
+ImkL:L:z3hbnACiBU21;D40
+R2
+R0
+R3
+R4
+R5
+L0 55713
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vsld_virtual_jtag
+R1
+!i10b 1
+!s100 55oioFBMKSzo=@n<oi7BX0
+I]WfLnZDCzVKM4TzDCjE1o0
+R2
+R0
+R3
+R4
+R5
+L0 55586
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vsld_virtual_jtag_basic
+R1
+!i10b 1
+!s100 Sf6O06HbiHnU=Rk^?KQT52
+IL?NNZD;hX4n8<7K;OfFG<1
+R2
+R0
+R3
+R4
+R5
+L0 56074
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vspi_writebyte
+R13
+!i10b 1
+!s100 QeATjRLY5LBf@RPLKEkfc3
+I;:W[U16bJP02kEg]>OBDR3
+R2
+R0
+w1637928570
+8E:/FPGA_Study/MyStudy2/OLED/rtl/spi_writebyte.v
+FE:/FPGA_Study/MyStudy2/OLED/rtl/spi_writebyte.v
+L0 1
+R6
+r1
+!s85 0
+31
+R14
+!s107 E:/FPGA_Study/MyStudy2/OLED/rtl/spi_writebyte.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/FPGA_Study/MyStudy2/OLED/rtl|E:/FPGA_Study/MyStudy2/OLED/rtl/spi_writebyte.v|
+!i113 1
+R15
+R16
+R11
+vstratix_lvds_rx
+R12
+!i10b 1
+!s100 djhElaif`:VNYYIYZ0m:>2
+IMA7W4N`Z;Wn0JUHgmPNNo2
+R2
+R0
+R3
+R4
+R5
+L0 25060
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vstratix_tx_outclk
+R12
+!i10b 1
+!s100 McB;WS<TASiTHF:`3;fW`3
+IJQbzVWeHj<@FAbzk_6>9`2
+R2
+R0
+R3
+R4
+R5
+L0 28930
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vstratixgx_dpa_lvds_rx
+R12
+!i10b 1
+!s100 4beX8@J991Xb3PNC2:PZg1
+ISl3S4Bl0S][^KOeJ?44Nh3
+R2
+R0
+R3
+R4
+R5
+L0 25168
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vstratixii_lvds_rx
+R12
+!i10b 1
+!s100 ld:i_E32S<TNS2l561ckF3
+IYEj@ZlYND`O<JXoX;X_Rl3
+R2
+R0
+R3
+R4
+R5
+L0 25571
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vstratixii_tx_outclk
+R1
+!i10b 1
+!s100 Rfg0N_0dP4h0e2jHClji`2
+I8TMUFm<IaKOVnA;I=TFR]0
+R2
+R0
+R3
+R4
+R5
+L0 29038
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vstratixiii_lvds_rx
+R12
+!i10b 1
+!s100 <Ck8^ah?ZD4_[;CDUe^:J2
+IfMVTH9g1>`d4KT4CjAZ<F1
+R2
+R0
+R3
+R4
+R5
+L0 26370
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vstratixiii_lvds_rx_channel
+R12
+!i10b 1
+!s100 QGJmGm`U8b44`JU4zeXkG3
+IPBgk8=APDQIbfAhi5S:[O0
+R2
+R0
+R3
+R4
+R5
+L0 26552
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vstratixiii_lvds_rx_dpa
+R12
+!i10b 1
+!s100 SCN5fQ<OCbRLQXA<2KTFO1
+IHl?]DdZ0W4E?Nf=[;EWTM0
+R2
+R0
+R3
+R4
+R5
+L0 27161
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vstratixv_local_clk_divider
+R12
+!i10b 1
+!s100 ?1EI4[T>j8LG26_MkSIMR1
+I=`oV5>0VXPiY@]6`hO8Ak3
+R2
+R0
+R3
+R4
+R5
+L0 28836
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vstx_m_cntr
+R12
+!i10b 1
+!s100 Bi9nb^84j8c]ge3Cj0Kih0
+IJ?]6XYBhCf8ejD3f5HBi92
+R2
+R0
+R3
+R4
+R5
+L0 2396
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vstx_n_cntr
+R12
+!i10b 1
+!s100 K5N?=7BYUgiL4nDC3?Xb<2
+IKWQ[RDi2l_k[nL]Q6`PYl1
+R2
+R0
+R3
+R4
+R5
+L0 2474
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vstx_scale_cntr
+R12
+!i10b 1
+!s100 6CW=IZ3R`CP<1g>?A43hG3
+I;;<V:LmWgA6kUD@QZG]773
+R2
+R0
+R3
+R4
+R5
+L0 2559
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vtri_bus
+R1
+!i10b 1
+!s100 iZXLc]>>jEPo^MZifMO:93
+I`VaF9ahLEcI6VcklI5Uz_0
+R2
+R0
+R17
+R18
+R19
+L0 347
+R6
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 1
+R10
+R11
+vttn_m_cntr
+R12
+!i10b 1
+!s100 ddWijNdjJedTHh?`mLYfL2
+INg2=Dled1k4<EU<DjKd^=2
+R2
+R0
+R3
+R4
+R5
+L0 10396
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vttn_n_cntr
+R12
+!i10b 1
+!s100 AX5MRG:W3BE?eY2^kCUjj1
+IZSWHiNX@gaZR[mTGPae3=3
+R2
+R0
+R3
+R4
+R5
+L0 10477
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vttn_scale_cntr
+R12
+!i10b 1
+!s100 P<]5::LbT9em>H15^VTeH1
+I:O1Q0KiolH]_L9zfkNcDM1
+R2
+R0
+R3
+R4
+R5
+L0 10548
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vzm_12
+R28
+!i10b 1
+!s100 :V8eYOOUlDAlLN019EIRX3
+IzIEzm<O8OSDi`f]EOImA<1
+R2
+R0
+Z32 w1638079740
+8E:/FPGA_Study/MyStudy2/OLED/ip/zm_12.v
+FE:/FPGA_Study/MyStudy2/OLED/ip/zm_12.v
+R29
+R6
+r1
+!s85 0
+31
+R30
+!s107 E:/FPGA_Study/MyStudy2/OLED/ip/zm_12.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/FPGA_Study/MyStudy2/OLED/ip|E:/FPGA_Study/MyStudy2/OLED/ip/zm_12.v|
+!i113 1
+R15
+R31
+R11
+vzm_16
+R28
+!i10b 1
+!s100 h@We^fcQ3H^k75g^QQf4F0
+IW:[^?ld^_QS7fi7<V=nH_1
+R2
+R0
+R32
+8E:/FPGA_Study/MyStudy2/OLED/ip/zm_16.v
+FE:/FPGA_Study/MyStudy2/OLED/ip/zm_16.v
+R29
+R6
+r1
+!s85 0
+31
+R30
+!s107 E:/FPGA_Study/MyStudy2/OLED/ip/zm_16.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/FPGA_Study/MyStudy2/OLED/ip|E:/FPGA_Study/MyStudy2/OLED/ip/zm_16.v|
+!i113 1
+R15
+R31
+R11
+vzm_24
+R28
+!i10b 1
+!s100 gaM3`h@]DAjGJLeL4Sb;:2
+If7MQXjUYm9LEzHVTK@9dO2
+R2
+R0
+w1638079738
+8E:/FPGA_Study/MyStudy2/OLED/ip/zm_24.v
+FE:/FPGA_Study/MyStudy2/OLED/ip/zm_24.v
+R29
+R6
+r1
+!s85 0
+31
+R14
+!s107 E:/FPGA_Study/MyStudy2/OLED/ip/zm_24.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/FPGA_Study/MyStudy2/OLED/ip|E:/FPGA_Study/MyStudy2/OLED/ip/zm_24.v|
+!i113 1
+R15
+R31
+R11
